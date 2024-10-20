@@ -1,0 +1,9 @@
+{
+    "name": "api",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": ". .venv/bin/activate && python run.py",
+        "generate:requirements": "poetry export --without-hashes --format=requirements.txt > requirements.txt",
+        "install": "poetry install"
+    }
+}
